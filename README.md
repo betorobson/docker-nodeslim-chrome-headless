@@ -2,6 +2,6 @@
 Docker Node-Slim Chrome Headless
 
 ```
-$ docker build -t betorobson/docker-node-chrome-headless:node-14 .
-$ docker push betorobson/docker-node-chrome-headless:node-14
+$ docker build -t betorobson/docker-node-chrome-headless:node-16 .
+$ docker push betorobson/docker-node-chrome-headless:node-16
 ```
