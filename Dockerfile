@@ -1,4 +1,4 @@
-FROM node:16-slim
+FROM node:18-slim
 
 ENV NODE_OPTIONS=--max_old_space_size=4096
 
