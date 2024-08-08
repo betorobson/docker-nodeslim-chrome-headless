@@ -19,9 +19,5 @@ jobs:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
     steps:
-      - name: Extract metadata (tags, labels) for Docker
-        id: meta
-        uses: docker/metadata-action@v5
-
       - name: Check out the repo
-        run: echo  The tags are ${{ steps.meta.outputs.tags }}
+        run: echo  The tags are ${GITHUB_REF#refs/*/}
