@@ -20,4 +20,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
-        run: echo  The tags are ${{ inputs.tags }}
+        run: echo  The tags are ${GITHUB_REF#refs/*/}
